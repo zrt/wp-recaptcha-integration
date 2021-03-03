@@ -247,11 +247,11 @@ msgstr ""
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:303
 msgid ""
-"Please configure the public and private key. <a href=\"http://www.google.com/"
+"Please configure the public and private key. <a href=\"http://www.recaptcha.net/"
 "recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
 msgstr ""
 "Bitte konfigurieren Sie den privaten und den öffentlichen Schlüssel (private "
-"&amp; public key). <a href=\"http://www.google.com/recaptcha/whyrecaptcha"
+"&amp; public key). <a href=\"http://www.recaptcha.net/recaptcha/whyrecaptcha"
 "\">Was willst Du mir damit sagen?</a>"
 
 # @ wp-recaptcha-integration

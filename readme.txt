@@ -81,7 +81,7 @@ running under his/her own domain name.
 
 First follow the standard [WordPress plugin installation procedere](http://codex.wordpress.org/Managing_Plugins).
 
-Then go to the [Google Recaptcha Site](http://www.google.com/recaptcha), register your site and enter your API-Keys on the configuration page.
+Then go to the [Google Recaptcha Site](http://www.recaptcha.net/recaptcha), register your site and enter your API-Keys on the configuration page.
 
 == Frequently asked questions ==
 
@@ -97,7 +97,7 @@ your domain. The server can not test this case, so an effective lockout preventi
 possible.
 
 You will either need one of the following:
-- access to the settings for your sitekey on [reCaptcha API key administration](https://www.google.com/recaptcha/admin#list)
+- access to the settings for your sitekey on [reCaptcha API key administration](https://www.recaptcha.net/recaptcha/admin#list)
 - access to your WordPress installation (via SSH or FTP) or database access
 - database access
 
@@ -109,7 +109,7 @@ You will either need one of the following:
 2. Find the part saying <code>data-sitekey="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"</code>
    (The XXX-part should be your sitekey.)
 
-3. Go to the [Google reCaptcha API key administration](https://www.google.com/recaptcha/admin#list)
+3. Go to the [Google reCaptcha API key administration](https://www.recaptcha.net/recaptcha/admin#list)
 
 4. Find the list entry with the sitekey from step 2
 

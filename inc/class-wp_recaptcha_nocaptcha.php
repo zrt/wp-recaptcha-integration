@@ -210,7 +210,7 @@ class WP_reCaptcha_NoCaptcha extends WP_reCaptcha_Captcha {
 			} );
 
 		</script><?php
-		$recaptcha_api_url = "https://www.google.com/recaptcha/api.js";
+		$recaptcha_api_url = "https://www.recaptcha.net/recaptcha/api.js";
 		$recaptcha_api_url = add_query_arg(array(
 				'onload' => 'wp_recaptchaLoadCallback',
 				'render' => 'explicit',
@@ -247,7 +247,7 @@ class WP_reCaptcha_NoCaptcha extends WP_reCaptcha_Captcha {
 			$return .= '<div style="width: 302px; height: 462px;">' .
 							'<div style="width: 302px; height: 422px; position: relative;">' .
 								'<div style="width: 302px; height: 422px; position: absolute;">' .
-									'<iframe src="https://www.google.com/recaptcha/api/fallback?k='.$attr['data-sitekey'].'"' .
+									'<iframe src="https://www.recaptcha.net/recaptcha/api/fallback?k='.$attr['data-sitekey'].'"' .
 											' frameborder="0" scrolling="no"' .
 											' style="width: 302px; height:422px; border-style: none;">' .
 									'</iframe>' .
@@ -278,7 +278,7 @@ class WP_reCaptcha_NoCaptcha extends WP_reCaptcha_Captcha {
 		if ( $user_response !== false ) {
 			if (  ! $this->_last_result ) {
 				$remote_ip = $_SERVER['REMOTE_ADDR'];
-				$url = "https://www.google.com/recaptcha/api/siteverify?secret=$private_key&response=$user_response&remoteip=$remote_ip";
+				$url = "https://www.recaptcha.net/recaptcha/api/siteverify?secret=$private_key&response=$user_response&remoteip=$remote_ip";
 				$response = wp_remote_get( $url );
 				if ( ! is_wp_error($response) ) {
 					$response_data = wp_remote_retrieve_body( $response );

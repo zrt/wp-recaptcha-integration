@@ -129,7 +129,7 @@ msgstr "Se o usu&aacute;rio estiver logado, n&atilde;o exigir o reCAPTCHA nos fo
 
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:328
-msgid "Please configure the public and private key. <a href=\"http://www.google.com/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
+msgid "Please configure the public and private key. <a href=\"http://www.recaptcha.net/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
 msgstr "Por favor, configure a Chave do Site (Site Key) e a Chave Secreta (Secret Key). <a href=\"https://developers.google.com/recaptcha/docs/start\">O que isso significa?</a>"
 
 # @ wp-recaptcha-integration

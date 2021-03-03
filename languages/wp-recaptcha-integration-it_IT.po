@@ -135,8 +135,8 @@ msgstr "Disabilita il reCAPTCHA per gli utenti loggati."
 
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:328
-msgid "Please configure the public and private key. <a href=\"http://www.google.com/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
-msgstr "Configurare la chiave pubblica e privata. <a href=\"http://www.google.com/recaptcha/whyrecaptcha\">Cosa vuol dire questa cosa?</a>"
+msgid "Please configure the public and private key. <a href=\"http://www.recaptcha.net/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
+msgstr "Configurare la chiave pubblica e privata. <a href=\"http://www.recaptcha.net/recaptcha/whyrecaptcha\">Cosa vuol dire questa cosa?</a>"
 
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:341

@@ -214,7 +214,7 @@ msgid "When the captcha verification fails, and the private or public API key do
 msgstr ""
 
 #: inc/class-wp_recaptcha_options.php:355
-msgid "Please configure the public and private key. <a href=\"http://www.google.com/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
+msgid "Please configure the public and private key. <a href=\"http://www.recaptcha.net/recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
 msgstr ""
 
 #: inc/class-wp_recaptcha_options.php:368

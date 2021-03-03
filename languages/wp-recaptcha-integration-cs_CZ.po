@@ -302,10 +302,10 @@ msgstr ""
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:355
 msgid ""
-"Please configure the public and private key. <a href=\"http://www.google.com/"
+"Please configure the public and private key. <a href=\"http://www.recaptcha.net/"
 "recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
 msgstr ""
-"Prosím nastavte veřejný a privátní klíč. <a href=\"http://www.google.com/"
+"Prosím nastavte veřejný a privátní klíč. <a href=\"http://www.recaptcha.net/"
 "recaptcha/whyrecaptcha\">co to znamená?</a>"
 
 # @ wp-recaptcha-integration

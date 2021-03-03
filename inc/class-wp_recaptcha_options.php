@@ -352,7 +352,7 @@ class WP_reCaptcha_Options {
 			}
 
 			if ( ! WP_reCaptcha::instance()->get_option( 'recaptcha_publickey' ) || ! WP_reCaptcha::instance()->get_option( 'recaptcha_privatekey' ) )
-				add_settings_error('recaptcha',1,__('Please configure the public and private key. <a href="http://www.google.com/recaptcha/whyrecaptcha">What are you trying to tell me?</a>','wp-recaptcha-integration'),'updated');
+				add_settings_error('recaptcha',1,__('Please configure the public and private key. <a href="http://www.recaptcha.net/recaptcha/whyrecaptcha">What are you trying to tell me?</a>','wp-recaptcha-integration'),'updated');
 		}
 	}
 
@@ -363,7 +363,7 @@ class WP_reCaptcha_Options {
 		if ( $this->enter_api_key ) {
 			?><p class="description"><?php
 				$info_url = 'https://developers.google.com/recaptcha/intro';
-				$admin_url = 'https://www.google.com/recaptcha/admin';
+				$admin_url = 'https://www.recaptcha.net/recaptcha/admin';
 				printf(
 					__( 'Please register your blog through the <a href="%s">Google reCAPTCHA admin page</a> and enter the public and private key in the fields below. <a href="%s">What is this all about?</a>', 'wp-recaptcha-integration' ) ,
 						$admin_url , $info_url

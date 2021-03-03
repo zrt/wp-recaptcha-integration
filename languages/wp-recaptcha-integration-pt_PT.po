@@ -305,7 +305,7 @@ msgstr ""
 # @ wp-recaptcha-integration
 #: inc/class-wp_recaptcha_options.php:355
 msgid ""
-"Please configure the public and private key. <a href=\"http://www.google.com/"
+"Please configure the public and private key. <a href=\"http://www.recaptcha.net/"
 "recaptcha/whyrecaptcha\">What are you trying to tell me?</a>"
 msgstr ""
 "Por favor, configure as chaves pública e privada. <a href=\"http://www."
